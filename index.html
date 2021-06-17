@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amogh's BMI Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon (1).ico">
+  </head>
+
+  <body>
+
+    <div class = "Title">
+        <h1>Welcome to Amogh's BMI Calculator</h1>
+    </div>
+
+    <div class ="Subtitle">
+        <h2>Input your weight in kilograms (Kg) and your height in metres (M) in the boxes below </h2>
+    </div>
+
+    <div class="BMI_Form">
+      <form>
+        <label for="fname">Weight (Kg):</label><br>
+        <input type="text" id="Weight" name="Weight"><br>
+        <label for="lname">Height (M):</label><br>
+        <input type="text" id="Height" name="Height"><br>
+      </form>
+    </div>
+
+    <div class="Submit_button">
+        <button onclick="bmiCalculator()">Calculate</button>
+    </div>
+
+    <div class="Output_text">
+      <p id="Output"></p>
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
