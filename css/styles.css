@@ -10,6 +10,12 @@ body{
   font-size: 2rem;
 }
 
+.Metric{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+}
+
 .Subtitle{
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -30,6 +36,39 @@ body{
 }
 
 .Output_text{
+  position: relative;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  bottom:-1rem;
+}
+
+.Title_2{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+}
+
+.Subtitle_2{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+}
+
+.BMI_Form_2{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+}
+
+.Submit_button_2{
+    position: relative;
+    bottom:-1rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Output_text_2{
   position: relative;
   text-align: center;
   font-family: 'Poppins', sans-serif;
